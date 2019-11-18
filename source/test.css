@@ -1,0 +1,95 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+
+	height: 100vh;
+	width: 100vw;
+	background-color: #333;
+	margin: 0;
+}
+
+img {
+	position: absolute;
+	height: 50vh;
+}
+
+.main-page {
+	height: 50%;
+	width: 100%;
+	display: flex;
+	margin: 0;
+}
+
+/*space id*/
+#space1 {
+	background-image: url('../img/intro1.jpg');
+	background-size: cover;
+	background-position: left;
+}
+
+#space2 {
+	background-image: url('../img/intro2.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#space3 {
+	background-image: url('../img/intro3.jpg');
+	background-size: cover;
+	background-position: right;
+}
+
+#space1,#space2,#space3 {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+#text {
+	width: 100%;
+	max-width: 1200px;
+
+	color: white;
+	font-size: 21px;
+}
+
+#text:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #fff;
+	margin: 60px auto;
+}
+
+/*Content*/
+
+.title {
+	font-size: 90px;
+	font-weight: 700;
+	font-family: 'Kaushan Script', cursive;
+
+	text-transform: uppercase;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+
+	margin-bottom: 15px;
+
+	opacity: 0;
+}
+
+.content {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.checked {
+	opacity: 1;
+}
+
