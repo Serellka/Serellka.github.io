@@ -1,5 +1,0 @@
-.rotate{
-	transform: rotate(360deg), translateX(200px);
-	transition: all 3s;
-}
-
