@@ -36,7 +36,7 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 	line-height: 1;
-	color: #fff;
+	color: black;
 }
 
 .intro_title:after{
@@ -44,14 +44,14 @@ body {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #fff;
+	background: black;
 	margin: 60px auto;
 }
 
 .intro_suptitle {
 	margin-bottom: 15px;
 	font-size: 72px;
-	color: #fff;
+	color: black;
 	font-family: 'Kaushan Script', cursive;
 	text-align: center;
 }
@@ -86,11 +86,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 8px 30px;
 	text-decoration: none;
 
-	border: 3px solid #fff;
+	border: 3px solid black;
 
 	font-style: 14px;
 	font-weight: 700;
-	color: #fff;
+	color: black;
 	text-transform: uppercase;
 
 	transition: background .1s linear, color .1s linear;
